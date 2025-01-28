@@ -6,7 +6,7 @@ import mirai
 
 # 注册插件
 @register(name="setu", description="setu plugin", version="0.1", author="SkyFuture")
-class PixivImagePlugin(BasePlugin):
+class Setulugin(BasePlugin):
 
     # 插件加载时触发
     def __init__(self, host: APIHost):
