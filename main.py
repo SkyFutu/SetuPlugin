@@ -1,10 +1,9 @@
 from pkg.plugin.context import register, handler, BasePlugin, APIHost, EventContext
 from pkg.plugin.events import * 
 import requests
-import logging
 
 # 注册插件
-@register(name="setu", description="setu plugin", version="0.1", author="SkyFuture")
+@register(name="Setu", description="setu plugin", version="0.1", author="SkyFuture")
 class Setulugin(BasePlugin):
 
     # 异步初始化
